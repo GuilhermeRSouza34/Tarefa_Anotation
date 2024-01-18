@@ -1,13 +1,13 @@
 package meu.pacote.annotations;
 
-import meu.pacote.annotations.Tabela;
 import meu.pacote.modelo.MinhaClasse;
 
 public class LeitorAnotacao {
 
     public static void main(String[] args) {
         lerAnotacaoDaClasse(MinhaClasse.class);
-        // Adicione outras chamadas para lerAnotacaoDaClasse para outras classes, se necessário
+        // Adicione outras chamadas para lerAnotacaoDaClasse para outras classes, se
+        // necessário
     }
 
     private static void lerAnotacaoDaClasse(Class<?> classe) {
